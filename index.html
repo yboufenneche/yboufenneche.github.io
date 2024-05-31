@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <title> Yassine BOUFENNECHE personal web site </title>
@@ -7,4 +7,138 @@
     <h1> Welcome to my personal website. </h1>
     <h3> Content will be comming soon. </h3>
   </body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Web Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .profile-image {
+            width: 150px;
+            border-radius: 50%;
+            margin: 1em 0;
+        }
+        .about, .skills, .portfolio, .contact {
+            background: #fff;
+            padding: 2em;
+            margin: 1em 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background: #eee;
+            margin: 0.5em 0;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin: 0.5em 0;
+            padding: 1em;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .social-links {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .social-links a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur ma page web personnelle</h1>
+</header>
+
+<div class="container">
+    <section class="about">
+        <h2>À propos de moi</h2>
+        <img src="profil.jpg" alt="Photo de profil" class="profile-image">
+        <p>Bonjour, je suis [Votre Nom], un passionné de [Votre Domaine]. J'ai une expérience significative dans [Votre Expérience] et je suis toujours à la recherche de nouveaux défis.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Compétence 1</li>
+            <li>Compétence 2</li>
+            <li>Compétence 3</li>
+            <li>Compétence 4</li>
+        </ul>
+    </section>
+
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <img src="projet1.jpg" alt="Projet 1">
+        <p>Description du projet 1.</p>
+        <img src="projet2.jpg" alt="Projet 2">
+        <p>Description du projet 2.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <form action="mailto:votre.email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <div class="social-links">
+        <h2>Suivez-moi</h2>
+        <a href="https://www.linkedin.com/in/votreprofil" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/votreprofil" target="_blank">Twitter</a>
+        <a href="https://github.com/votreprofil" target="_blank">GitHub</a>
+    </div>
+</div>
+
+</body>
 </html>
